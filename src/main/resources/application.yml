@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://47.92.241.17:3306/authorization_server
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: spring-authorization-server
+    password: 2t#svzPYp3RS
